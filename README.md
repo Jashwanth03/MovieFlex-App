@@ -25,28 +25,6 @@
 
 ---
 
-## 📂 Project Structure
-
-MovieFlex-App/
-├── node_modules/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── MovieCard.jsx
-│   │   ├── Search.jsx
-│   │   └── Spinner.jsx
-│   ├── App.jsx
-│   ├── appwrite.js
-│   ├── index.css
-│   └── main.jsx
-├── .env.local
-├── package.json
-├── vite.config.js
-└── README.md
-
----
-
 ## 🌟 How It Works
 
 1. **Search:** Type your query; after a brief pause (debounce), the app fetches results from TMDB.
@@ -59,36 +37,45 @@ MovieFlex-App/
 
 ## ⏬ Getting Started
 
-### 1. **Clone the Repo**
+### 1. Clone the Repo
 
+```bash
 git clone https://github.com/Jashwanth03/MovieFlex-App.git
 cd MovieFlex-App
+```
 
-### 2. **Install Dependencies**
+### 2. Install Dependencies
 
+```bash
 npm install
-or
+# or
 yarn install
+```
 
-### 3. **Set up Environment Variables**
+### 3. Set up Environment Variables
+
 Create a `.env.local` file in the root directory:
 
+```env
 VITE_TMDB_API_KEY=your_tmdb_api_key
 VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
 VITE_APPWRITE_DATABASE_ID=your_appwrite_database_id
 VITE_APPWRITE_TABLE_ID=your_appwrite_table_id
 VITE_APPWRITE_PROJECT_NAME="movie_app"
 VITE_APPWRITE_ENDPOINT="your_appwrite_endpoint"
+```
 
-_You can get your API keys by signing up at [TMDB](https://www.themoviedb.org/) and [Appwrite Cloud](https://appwrite.io/)._
+*You can get your API keys by signing up at [TMDB](https://www.themoviedb.org/) and [Appwrite Cloud](https://appwrite.io/).*
 
-### 4. **Run Locally**
+### 4. Run Locally
 
+```bash
 npm run dev
-or
+# or
 yarn dev
+```
 
-Open `http://localhost:5173` in your browser.
+Open http://localhost:5173 in your browser.
 
 ---
 
@@ -135,12 +122,6 @@ MIT License
 ## 👨‍💻 Author
 
 **Jashwanth03**
-
----
-
-## 🖼️ Screenshot
-
-_(Add a screenshot of your app here if desired)_
 
 ---
 
